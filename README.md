@@ -15,7 +15,7 @@ scaffold is a valid ring system by construction.
 ```
 condition ──► A1 rings ──► A3 branches ──► A2 atoms ──► Terminal ──► SMILES
                     └──────────┬─────────┘
-                     decode_scaffold (deterministic)
+                     decode_scaffold
 ```
 
 ---
