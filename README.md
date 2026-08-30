@@ -312,8 +312,6 @@ Summarised here, measured and documented in
 }
 ```
 
-See [CITATION.cff](CITATION.cff).
-
 ---
 
 ## License
