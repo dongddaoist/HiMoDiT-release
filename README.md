@@ -94,11 +94,6 @@ export PYTHONPATH=.
 For GPU training, install the PyTorch build matching your CUDA version
 from [pytorch.org](https://pytorch.org) first.
 
-Verify:
-
-```bash
-pytest tests/ -q          # 110 tests, runs on CPU in ~5 seconds
-```
 
 ---
 
