@@ -13,7 +13,7 @@ than sampled, so the stages cannot contradict each other and every
 scaffold is a valid ring system by construction.
 
 ```
-condition ──► A1 rings ──► A3 branches ──► A2 atoms ──► Terminal ──► SMILES
+condition ──►   rings ──►   branches ──►   atoms ──► Terminal ──► SMILES
                     └──────────┬─────────┘
                      decode_scaffold
 ```
