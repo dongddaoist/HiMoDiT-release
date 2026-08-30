@@ -1,0 +1,180 @@
+{
+  "n_samples_total": 1024,
+  "n_failures": 5,
+  "failures": [
+    {
+      "idx": 59,
+      "category": "sanitize_failed",
+      "sanitize_bucket": "valence_O_5",
+      "error_class": "AtomValenceException",
+      "error_msg": "Explicit valence for atom # 4 O, 5, is greater than permitted",
+      "pre_sanitize_smiles": "c1(C(N(CC(C[NH+](CC)C)OC)C)=O)c(OC)c(OC)c2o1c(C)c(OC)cc2OC",
+      "n_active_atoms": 16,
+      "n_bonds_total": 17,
+      "atom_histogram": {
+        "c": 8,
+        "o": 1,
+        "C": 5,
+        "N": 1,
+        "N+": 1
+      },
+      "fragment_histogram": {
+        "15": 5,
+        "6": 5,
+        "7": 1
+      },
+      "cond_logP_norm": -0.6710700392723083,
+      "cond_SAS_norm": 0.36557242274284363
+    },
+    {
+      "idx": 544,
+      "category": "sanitize_failed",
+      "sanitize_bucket": "kekulize",
+      "error_class": "KekulizeException",
+      "error_msg": "Can't kekulize mol.  Unkekulized atoms: 0 1 2",
+      "pre_sanitize_smiles": "c1(SC)ncn23-n1(-c1c(F)c(F)c(F)cc1F)N(C)C(=O)CC2C(C)CCC3C(F)(F)F",
+      "n_active_atoms": 20,
+      "n_bonds_total": 23,
+      "atom_histogram": {
+        "c": 8,
+        "n": 3,
+        "N": 1,
+        "C": 7,
+        "S": 1
+      },
+      "fragment_histogram": {
+        "6": 4,
+        "9": 1,
+        "7": 1,
+        "5": 5,
+        "16": 1
+      },
+      "cond_logP_norm": 1.4792944192886353,
+      "cond_SAS_norm": 0.501921534538269
+    },
+    {
+      "idx": 718,
+      "category": "sanitize_failed",
+      "sanitize_bucket": "valence_O_5",
+      "error_class": "AtomValenceException",
+      "error_msg": "Explicit valence for atom # 4 O, 5, is greater than permitted",
+      "pre_sanitize_smiles": "c1(C(NCC(CC(F)(F)F)OC)=O)c(Br)c(OC)c2o1cc(OC)c(OC)c2OC",
+      "n_active_atoms": 14,
+      "n_bonds_total": 15,
+      "atom_histogram": {
+        "c": 8,
+        "o": 1,
+        "C": 4,
+        "N": 1
+      },
+      "fragment_histogram": {
+        "6": 1,
+        "11": 2,
+        "15": 5,
+        "7": 1,
+        "16": 1
+      },
+      "cond_logP_norm": 0.29805734753608704,
+      "cond_SAS_norm": 0.008502989076077938
+    },
+    {
+      "idx": 802,
+      "category": "sanitize_failed",
+      "sanitize_bucket": "valence_O_4",
+      "error_class": "AtomValenceException",
+      "error_msg": "Explicit valence for atom # 10 O, 4, is greater than permitted",
+      "pre_sanitize_smiles": "c1(C2(c3(-c4c(F)c(Cl)c(Cl)cc4Cl)nnc(CC)[n+]3O)Nc-c(Cl)-o3[n+]2cc(Br)cc3Cl)c(OC)c(Cl)ccc1F",
+      "n_active_atoms": 28,
+      "n_bonds_total": 32,
+      "atom_histogram": {
+        "c": 20,
+        "C": 2,
+        "N": 1,
+        "o": 1,
+        "n+": 2,
+        "n": 2
+      },
+      "fragment_histogram": {
+        "5": 4,
+        "15": 1,
+        "10": 6,
+        "6": 2,
+        "1": 2,
+        "11": 1
+      },
+      "cond_logP_norm": 2.1696441173553467,
+      "cond_SAS_norm": 0.25808537006378174
+    },
+    {
+      "idx": 847,
+      "category": "sanitize_failed",
+      "sanitize_bucket": "valence_O_4",
+      "error_class": "AtomValenceException",
+      "error_msg": "Explicit valence for atom # 11 O, 4, is greater than permitted",
+      "pre_sanitize_smiles": "c1(C2(c3c(O)c(C)c(Br)c(Cl)c3Br)Nc(Cl)-c(Br)-c3o2c(C(F)(F)F)c(C#N)c(C(F)(F)F)c3Br)c(C)c(Br)c(Br)c(Br)c1N",
+      "n_active_atoms": 22,
+      "n_bonds_total": 25,
+      "atom_histogram": {
+        "c": 19,
+        "C": 1,
+        "N": 1,
+        "o": 1
+      },
+      "fragment_histogram": {
+        "11": 8,
+        "6": 2,
+        "3": 1,
+        "1": 2,
+        "10": 2,
+        "16": 3,
+        "13": 1,
+        "15": 1
+      },
+      "cond_logP_norm": 2.1443545818328857,
+      "cond_SAS_norm": -0.19585491716861725
+    }
+  ],
+  "category_counts": {
+    "sanitize_failed": 5
+  },
+  "sanitize_bucket_counts": {
+    "valence_O_5": 2,
+    "kekulize": 1,
+    "valence_O_4": 2
+  },
+  "terminal_class_freq_in_failures": {
+    "15": 12,
+    "6": 14,
+    "7": 3,
+    "9": 1,
+    "5": 9,
+    "16": 5,
+    "11": 11,
+    "10": 8,
+    "1": 4,
+    "3": 1,
+    "13": 1
+  },
+  "terminal_class_freq_overall": {
+    "10": 1354,
+    "13": 616,
+    "7": 943,
+    "12": 269,
+    "15": 1571,
+    "14": 384,
+    "6": 1936,
+    "4": 25,
+    "3": 329,
+    "2": 160,
+    "1": 657,
+    "8": 73,
+    "11": 733,
+    "16": 303,
+    "5": 1109,
+    "9": 98,
+    "17": 13,
+    "20": 10,
+    "18": 7,
+    "21": 1
+  }
+}

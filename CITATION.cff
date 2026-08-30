@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: "HiMoDiT: Hierarchical Molecular Diffusion Transformer"
+message: "If you use this software, please cite it as below."
+type: software
+version: 1.0.0
+date-released: 2026-08-28
+license: MIT
+repository-code: "https://github.com/TODO/himodit"
+abstract: >-
+  A property-conditioned generative model for drug-like molecules built as
+  a four-stage cascade over a chemically structured latent space: ring
+  layout, branch topology, atom identity, and terminal decoration. The bond
+  matrix between stages is constructed by a deterministic decoder rather
+  than sampled, so every generated scaffold is a valid ring system by
+  construction.
+keywords:
+  - molecular generation
+  - discrete diffusion
+  - cheminformatics
+  - drug discovery
+
+# TODO: replace with the full author list before publishing.
+authors:
+  - family-names: TODO
+    given-names: TODO
+    affiliation: TODO
+    orcid: "https://orcid.org/TODO"
+
+# TODO: uncomment and complete once the manuscript is published.
+# preferred-citation:
+#   type: article
+#   title: TODO
+#   authors:
+#     - family-names: TODO
+#       given-names: TODO
+#   journal: TODO
+#   year: 2026
+#   doi: TODO

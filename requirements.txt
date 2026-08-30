@@ -1,0 +1,15 @@
+# Core
+numpy>=1.23
+pandas>=1.5
+rdkit>=2022.09
+networkx>=2.8
+torch>=2.0
+
+# Optional: progress bars during generation
+tqdm>=4.64
+
+# Optional: training-history plots in the notebooks
+matplotlib>=3.6
+
+# Development
+pytest>=7.0
