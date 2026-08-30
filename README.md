@@ -84,13 +84,6 @@ cd himodit
 pip install -e .
 ```
 
-Or without installing:
-
-```bash
-pip install -r requirements.txt
-export PYTHONPATH=.
-```
-
 For GPU training, install the PyTorch build matching your CUDA version
 from [pytorch.org](https://pytorch.org) first.
 
