@@ -79,7 +79,7 @@ here. Run `scripts/generate.py` after training to produce them.
 Requires Python 3.9+ and RDKit.
 
 ```bash
-git clone https://github.com/<user>/himodit.git
+git clone https://github.com/dongddaoist/himodit.git
 cd himodit
 pip install -e .
 ```
