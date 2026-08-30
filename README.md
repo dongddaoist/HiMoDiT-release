@@ -305,10 +305,10 @@ Summarised here, measured and documented in
 ## Citation
 
 ```bibtex
-@software{himodit,
-  title  = {HiMoDiT: Hierarchical Molecular Diffusion Transformer},
-  year   = {2026},
-  url    = {[https://github.com/TODO/himodit](https://github.com/dongddaoist/HiMoDiT-release)}
+@article{dong2026himodit,
+  title={Hierarchical Molecular Diffusion Transformers (HiMoDiT) for Chemistry-Grounded Generation},
+  author={Dong, Dengpan and Zhang, Yumin and Hannah, Daniel C and Hu, Qichao and Xu, Kang},
+  year={2026}
 }
 ```
 
