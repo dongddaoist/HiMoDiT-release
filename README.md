@@ -319,9 +319,8 @@ Summarised here, measured and documented in
 ```bibtex
 @software{himodit,
   title  = {HiMoDiT: Hierarchical Molecular Diffusion Transformer},
-  author = {TODO},
   year   = {2026},
-  url    = {https://github.com/TODO/himodit}
+  url    = {[https://github.com/TODO/himodit](https://github.com/dongddaoist/HiMoDiT-release)}
 }
 ```
 
