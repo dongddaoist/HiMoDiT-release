@@ -292,11 +292,7 @@ Summarised here, measured and documented in
 - A3 can emit **non-causal branch parents**, which cost the molecule at
   decode time. `--enforce-causal-parent` clamps them.
 - **Peri-fused and angular** ring systems are rejected — the ring graph
-  must be a tree.
-- **Ring-free molecules** cannot be represented; the hierarchy is
-  anchored on ring 0.
-- Scaffold ring bonds are **single or aromatic only**; ring-internal
-  double bonds are not expressible.
+  must be a tree in current version. For the fix to this contact the corresponding author for updated version.
 - Reported validity **includes the repair cascade** in
   `himodit.chem.compose`.
 
